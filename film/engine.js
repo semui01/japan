@@ -28,7 +28,7 @@ function noise(x) { const i = Math.floor(x), f = x - i, u = f * f * (3 - 2 * f);
 function fbm(x) { return noise(x) * .6 + noise(x * 2.1 + 17) * .3 + noise(x * 4.3 + 41) * .1; }
 
 // ---------------------------------------------------------------- drawing helpers
-const F = { d: '"Inter Display","Inter",sans-serif', m: '"DejaVu Sans Mono","Liberation Mono",monospace' };
+const F = { d: '"Inter Display","Inter",NotoJP,sans-serif', m: '"DejaVu Sans Mono","Liberation Mono",monospace' };
 const font = (w, s, fam = F.d) => `${w} ${s}px ${fam}`;
 const C = { bg: '#040a14', cyan: '#5fd4ff', cyan2: '#9be7ff', white: '#eef7ff', amber: '#ffb340', hot: '#ff6a2b', red: '#ff3d3d', green: '#7dffb0' };
 function txt(s, x, y, f, col, align = 'left', ls = 0, base = 'alphabetic') {

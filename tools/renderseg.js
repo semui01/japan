@@ -1,5 +1,5 @@
 // Render frames [a, b) of a canvas film page and pipe them to ffmpeg.
-// usage: node renderseg.js <film/index.html> <a> <b> <out.mp4> [fps=30]   (env VERT=1 for 9:16)
+// usage: node renderseg.js <film/index.html> <a> <b> <out.mp4> [fps=30]   (env VERT=1 for 9:16, Q=ja for Japanese)
 const { chromium } = (() => { try { return require('playwright'); } catch { return require('/opt/node22/lib/node_modules/playwright'); } })();
 const { spawn } = require('child_process');
 const path = require('path');
@@ -9,7 +9,8 @@ const V = !!process.env.VERT;
   const br = await chromium.launch();
   const p = await br.newPage({ viewport: V ? { width: 1080, height: 1920 } : { width: 1920, height: 1080 } });
   p.on('pageerror', e => { console.error('PAGE ERROR', e.message); process.exitCode = 1; });
-  await p.goto('file://' + path.resolve(html) + (V ? '?v' : ''));
+  const qs = [V ? 'v' : '', process.env.Q || ''].filter(Boolean).join('&');   // env Q adds params, e.g. Q=ja
+  await p.goto('file://' + path.resolve(html) + (qs ? '?' + qs : ''));
   await p.evaluate(() => window.ready);
   const ff = spawn('ffmpeg', ['-loglevel', 'error', '-y', '-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'mjpeg', '-i', '-',
     '-c:v', 'libx264', '-preset', 'medium', '-crf', '15', '-pix_fmt', 'yuv420p', out], { stdio: ['pipe', 'inherit', 'inherit'] });

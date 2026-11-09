@@ -1,11 +1,15 @@
 # Which Prefecture in Japan Has the Most Foreign Residents?
 
-A 60-second vertical (9:16, 1080×1920) motion-graphics short with English narration, word-synced captions and a synthesized score. It counts down Japan's top 5 prefectures by number of foreign residents.
+A 60-second motion-graphics short counting down Japan's top 5 prefectures by number of foreign residents, with a synthesized score. It comes in four versions:
 
-| | |
-|---|---|
-| `video/top5-prefectures_9x16.mp4` | High-quality upload copy (≈86 MB, −14 LUFS) |
-| `video/top5-prefectures_9x16_small.mp4` | Smaller copy for chat/preview (≈27 MB) |
+| Version | High quality (≈86 MB) | Small (≈27 MB) |
+|---|---|---|
+| 9:16 vertical · English narration + captions | `video/top5-prefectures_9x16.mp4` | `video/top5-prefectures_9x16_small.mp4` |
+| 9:16 vertical · music only · Japanese captions and graphics | `video/top5-prefectures_9x16_ja_music.mp4` | `video/top5-prefectures_9x16_ja_music_small.mp4` |
+| 16:9 landscape · English narration + captions | `video/top5-prefectures_16x9.mp4` | `video/top5-prefectures_16x9_small.mp4` |
+| 16:9 landscape · music only · Japanese captions and graphics | `video/top5-prefectures_16x9_ja_music.mp4` | `video/top5-prefectures_16x9_ja_music_small.mp4` |
+
+All versions are 1080p, 30 fps, loudness-normalised to −14 LUFS. The vertical cut is made for Shorts, Reels and TikTok. The landscape cut puts the rank card, charts and rail in a left column so the map stays uncovered, which suits YouTube and presentations. The Japanese versions translate all on-screen text, write numbers Japanese-style (82万4486人), and keep the English narration's timing as their pacing.
 
 ## The data
 
@@ -52,7 +56,7 @@ score.py           music + SFX timed to the film's events
 tools/             geo prep, narration, still/frame rendering, mixing, delivery scripts
 ```
 
-`film/index.html?v&t=42.5` renders a single 9:16 frame at 42.5 s, and `?v&play` plays the film in real time.
+URL switches on `film/index.html`: `v` = 9:16 (otherwise 16:9), `ja` = Japanese text and captions, `t=42.5` = render one frame at 42.5 s, `play` = play in real time. Example: `film/index.html?v&ja&t=42.5`. The Japanese caption lines are in `JCAP` in `film/scenes.js`. The render scripts take the same switches from the environment: `VERT=1` for 9:16 and `Q=ja` for Japanese.
 
 ### Re-render
 
@@ -68,12 +72,16 @@ cp timeline.js film/ && mv vo_full.wav audio/narration.wav
 VERT=1 node tools/stills.js film/index.html stills/check 5 20 42.5 58
 EV=1 VERT=1 node tools/stills.js film/index.html stills/ev 0
 
-# 3. full render (1800 frames)
-VERT=1 bash tools/render.sh film/index.html 60 master_9x16.mp4
+# 3. full renders (1800 frames each)
+VERT=1 bash tools/render.sh film/index.html 60 master_9x16.mp4            # 9:16 English
+VERT=1 Q=ja bash tools/render.sh film/index.html 60 master_9x16_ja.mp4    # 9:16 Japanese
+bash tools/render.sh film/index.html 60 master_16x9.mp4                   # 16:9 English
+Q=ja bash tools/render.sh film/index.html 60 master_16x9_ja.mp4           # 16:9 Japanese
 
-# 4. score + mix, then encode upload copies
+# 4. score + mixes (mix.wav with narration, mix_novo.wav music only), then encode upload copies
 python3 score.py
 bash tools/deliver.sh master_9x16.mp4 mix.wav out/top5-prefectures_9x16
+bash tools/deliver.sh master_9x16_ja.mp4 mix_novo.wav out/top5-prefectures_9x16_ja_music
 ```
 
 `tools/prep_geo.py` rebuilds `film/geo.js` from `japan.geojson` (dataofjapan/land) and `ne_50m_land.geojson` (Natural Earth).
