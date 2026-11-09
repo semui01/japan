@@ -1,0 +1,79 @@
+# Which Prefecture in Japan Has the Most Foreign Residents?
+
+A 60-second vertical (9:16, 1080×1920) motion-graphics short with English narration, word-synced captions and a synthesized score. It counts down Japan's top 5 prefectures by number of foreign residents.
+
+| | |
+|---|---|
+| `video/top5-prefectures_9x16.mp4` | High-quality upload copy (≈86 MB, −14 LUFS) |
+| `video/top5-prefectures_9x16_small.mp4` | Smaller copy for chat/preview (≈27 MB) |
+
+## The data
+
+Foreign residents (在留外国人) at **end of June 2026**, from the Immigration Services Agency of Japan (出入国在留管理庁), released 16 Oct 2026. National total: **4,281,026** (record high).
+
+| Rank | Prefecture | Foreign residents | Change since Dec 2025 |
+|---|---|---|---|
+| 1 | Tokyo 東京都 | 824,486 | +23,048 |
+| 2 | Osaka 大阪府 | 389,846 | +14,527 |
+| 3 | Aichi 愛知県 | 369,849 | +12,049 |
+| 4 | Kanagawa 神奈川県 | 331,515 | +14,162 |
+| 5 | Saitama 埼玉県 | 305,867 | +14,930 |
+
+Figures calculated for the video:
+- Top 5 combined = 2,221,563, which is **51.9 %** of the national total. The waffle chart rounds each prefecture's share to whole squares, giving 52.
+- Tokyo's share is **19.3 %** ("nearly 1 in 5"), as stated in the release.
+- Tokyo minus (Osaka + Aichi) = 824,486 − 759,695 = **+64,791**.
+- Osaka grew from 253,303 (June 2020) to 389,846: **+54 %**. Aichi was 276,282 in June 2020, still ahead of Osaka then.
+
+The 428 dots in the opening stand for about 10,000 people each, but they are decoration: where they land is random, not real locations.
+
+Sources:
+- ISA press release, 令和8年6月末現在における在留外国人数について: https://www.moj.go.jp/isa/publications/press/13_00070.html
+- June 2020 prefecture figures from the ISA statistics, as tabulated by Ibaraki Prefecture: https://www.pref.ibaraki.jp/bugai/kokusai/tabunka/jpn/data/documents/02_r26zenkokugaikokujinn.pdf
+
+## Credits and licences
+
+- **Prefecture boundaries:** 地球地図日本 / Global Map Japan, Geospatial Information Authority of Japan (GSI), via [dataofjapan/land](https://github.com/dataofjapan/land). Per its terms, credit the source. For commercial use, GSI also asks for a usage report.
+- **Neighbouring coastlines:** [Natural Earth](https://www.naturalearthdata.com/) 1:50m land (public domain).
+- **Japanese font:** Noto Sans JP, SIL Open Font License 1.1 (`film/NotoSansJP-OFL.txt`).
+- **Narration:** Kokoro TTS (voice `af_heart`). Place names are spoken from phonetic spellings: Sai-tama, Eye-chee, Kana-gawa, Oh-saka.
+- **Music and sound effects:** synthesized in `score.py`.
+
+## How it is built
+
+Everything is code, so the film can be re-rendered or edited.
+
+```
+script.txt         narration, one line per caption line (`shown || spoken`)
+timeline.json      line start/end times produced by narrate.py
+film/              canvas animation: index.html + engine.js + scenes.js (+ geo.js map data, timeline.js)
+audio/             narration.wav, mix.flac (with narration), mix_novo.flac (music + SFX only)
+score.py           music + SFX timed to the film's events
+tools/             geo prep, narration, still/frame rendering, mixing, delivery scripts
+```
+
+`film/index.html?v&t=42.5` renders a single 9:16 frame at 42.5 s, and `?v&play` plays the film in real time.
+
+### Re-render
+
+Requirements: Node with Playwright + Chromium, Python 3 with `numpy scipy soundfile kokoro-onnx shapely`, and ffmpeg.
+
+```bash
+# 1. narration (only if script.txt changes) -> timeline.json, timeline.js, vo_full.wav
+python3 tools/narrate.py script.txt --out . --duration 60 --voice af_heart --tail 3.6
+python3 tools/regap.py . 17:0.8          # extra suspense pause before "Tokyo"
+cp timeline.js film/ && mv vo_full.wav audio/narration.wav
+
+# 2. stills for checking, and the event times the score reads
+VERT=1 node tools/stills.js film/index.html stills/check 5 20 42.5 58
+EV=1 VERT=1 node tools/stills.js film/index.html stills/ev 0
+
+# 3. full render (1800 frames)
+VERT=1 bash tools/render.sh film/index.html 60 master_9x16.mp4
+
+# 4. score + mix, then encode upload copies
+python3 score.py
+bash tools/deliver.sh master_9x16.mp4 mix.wav out/top5-prefectures_9x16
+```
+
+`tools/prep_geo.py` rebuilds `film/geo.js` from `japan.geojson` (dataofjapan/land) and `ne_50m_land.geojson` (Natural Earth).

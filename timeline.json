@@ -1,0 +1,168 @@
+{
+ "duration": 60.0,
+ "speed": 1.1802415862553544,
+ "voice": "af_heart",
+ "lines": [
+  {
+   "display": "Which prefecture in Japan has the most *foreign* *residents*?",
+   "spoken": "Which prefecture in Japan has the most foreign residents?",
+   "chapterBreak": false,
+   "s": 0.7,
+   "e": 3.633
+  },
+  {
+   "display": "Japan now has a *record* 4.28 million of them.",
+   "spoken": "Japan now has a record four point two eight million of them.",
+   "chapterBreak": false,
+   "s": 4.023,
+   "e": 6.936
+  },
+  {
+   "display": "Let's count down the *top* *five*.",
+   "spoken": "Let's count down the top five.",
+   "chapterBreak": false,
+   "s": 7.326,
+   "e": 8.841
+  },
+  {
+   "display": "Number five: *Saitama*.",
+   "spoken": "Number five: Sai-tama.",
+   "chapterBreak": true,
+   "s": 9.466,
+   "e": 10.864
+  },
+  {
+   "display": "About *306,000* people,",
+   "spoken": "About three hundred and six thousand people,",
+   "chapterBreak": false,
+   "s": 11.254,
+   "e": 13.404
+  },
+  {
+   "display": "up almost *15,000* in just six months.",
+   "spoken": "up almost fifteen thousand in just six months.",
+   "chapterBreak": false,
+   "s": 13.794,
+   "e": 16.014
+  },
+  {
+   "display": "Number four: *Kanagawa*.",
+   "spoken": "Number four: Kana-gawa.",
+   "chapterBreak": true,
+   "s": 16.639,
+   "e": 18.026
+  },
+  {
+   "display": "About *332,000*,",
+   "spoken": "About three hundred and thirty-two thousand,",
+   "chapterBreak": false,
+   "s": 18.417,
+   "e": 20.6
+  },
+  {
+   "display": "home to Yokohama's famous *Chinatown*.",
+   "spoken": "home to Yokohama's famous Chinatown.",
+   "chapterBreak": false,
+   "s": 20.99,
+   "e": 22.989
+  },
+  {
+   "display": "Number three: *Aichi*.",
+   "spoken": "Number three: Eye-chee.",
+   "chapterBreak": true,
+   "s": 23.613,
+   "e": 24.856
+  },
+  {
+   "display": "About *370,000*,",
+   "spoken": "About three hundred and seventy thousand,",
+   "chapterBreak": false,
+   "s": 25.246,
+   "e": 27.153
+  },
+  {
+   "display": "the heart of Japan's *car* *industry*.",
+   "spoken": "the heart of Japan's car industry.",
+   "chapterBreak": false,
+   "s": 27.543,
+   "e": 29.329
+  },
+  {
+   "display": "It used to be number two, until its rival *overtook* it.",
+   "spoken": "It used to be number two, until its rival overtook it.",
+   "chapterBreak": false,
+   "s": 29.719,
+   "e": 32.499
+  },
+  {
+   "display": "Number two: *Osaka*.",
+   "spoken": "Number two: Oh-saka.",
+   "chapterBreak": true,
+   "s": 33.124,
+   "e": 34.496
+  },
+  {
+   "display": "About *390,000*,",
+   "spoken": "About three hundred and ninety thousand,",
+   "chapterBreak": false,
+   "s": 34.887,
+   "e": 36.751
+  },
+  {
+   "display": "up more than *50%* since 2020.",
+   "spoken": "up more than fifty percent since twenty twenty.",
+   "chapterBreak": false,
+   "s": 37.141,
+   "e": 39.45
+  },
+  {
+   "display": "And number one...",
+   "spoken": "And number one...",
+   "chapterBreak": true,
+   "s": 40.075,
+   "e": 40.895
+  },
+  {
+   "display": "*Tokyo*.",
+   "spoken": "Tokyo.",
+   "chapterBreak": false,
+   "s": 42.085,
+   "e": 42.693
+  },
+  {
+   "display": "*824,000* people.",
+   "spoken": "Eight hundred and twenty-four thousand people.",
+   "chapterBreak": false,
+   "s": 43.083,
+   "e": 45.301
+  },
+  {
+   "display": "That's more than *Osaka* *and* *Aichi* combined.",
+   "spoken": "That's more than Oh-saka and Eye-chee combined.",
+   "chapterBreak": false,
+   "s": 45.691,
+   "e": 47.931
+  },
+  {
+   "display": "Nearly *1* *in* *5* foreign residents in Japan lives here.",
+   "spoken": "Nearly one in five foreign residents in Japan lives here.",
+   "chapterBreak": false,
+   "s": 48.322,
+   "e": 51.412
+  },
+  {
+   "display": "Together, these five hold over *half* of all foreign residents in Japan.",
+   "spoken": "Together, these five hold over half of all foreign residents in Japan.",
+   "chapterBreak": true,
+   "s": 52.037,
+   "e": 55.627
+  },
+  {
+   "display": "Which one would *you* call home?",
+   "spoken": "Which one would you call home?",
+   "chapterBreak": false,
+   "s": 56.017,
+   "e": 57.2
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+# render / build outputs
+stills/
+vo/
+out/
+master_*.mp4
+*.parts.*/
+/mix.wav
+/mix_novo.wav
+/vo_full.wav
+/timeline.js
+__pycache__/
