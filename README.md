@@ -85,3 +85,7 @@ bash tools/deliver.sh master_9x16_ja.mp4 mix_novo.wav out/top5-prefectures_9x16_
 ```
 
 `tools/prep_geo.py` rebuilds `film/geo.js` from `japan.geojson` (dataofjapan/land) and `ne_50m_land.geojson` (Natural Earth).
+
+## Other films in this repo
+
+- `shoes-off/` — *Shoes Off*: why Shōwa Japan slipped its shoes off on trains and in cars (75 s, 9:16). See `shoes-off/README.md`.

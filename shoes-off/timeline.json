@@ -1,0 +1,168 @@
+{
+ "duration": 75.0,
+ "speed": 1.2172838664961148,
+ "voice": "am_michael",
+ "lines": [
+  {
+   "display": "In *Shōwa* Japan, a long train ride often started the same way:",
+   "spoken": "In Show-wah Japan, a long train ride often started the same way:",
+   "chapterBreak": false,
+   "s": 0.7,
+   "e": 4.457
+  },
+  {
+   "display": "*shoes* *off.*",
+   "spoken": "shoes off.",
+   "chapterBreak": false,
+   "s": 4.897,
+   "e": 5.61
+  },
+  {
+   "display": "Western shoes took a long time to feel *at* *home* in Japan.",
+   "spoken": "Western shoes took a long time to feel at home in Japan.",
+   "chapterBreak": true,
+   "s": 6.314,
+   "e": 9.283
+  },
+  {
+   "display": "Houses were *shoes-off*, summers were *humid*, and streets were *mud*.",
+   "spoken": "Houses were shoes-off, summers were humid, and streets were mud.",
+   "chapterBreak": false,
+   "s": 9.724,
+   "e": 12.878
+  },
+  {
+   "display": "So people slipped them off whenever they could.",
+   "spoken": "So people slipped them off whenever they could.",
+   "chapterBreak": false,
+   "s": 13.319,
+   "e": 15.606
+  },
+  {
+   "display": "On trains with facing *box* *seats*, families stretched out in their *socks*,",
+   "spoken": "On trains with facing box seats, families stretched out in their socks,",
+   "chapterBreak": true,
+   "s": 16.31,
+   "e": 20.229
+  },
+  {
+   "display": "*newspaper* spread under their feet.",
+   "spoken": "newspaper spread under their feet.",
+   "chapterBreak": false,
+   "s": 20.669,
+   "e": 22.188
+  },
+  {
+   "display": "As early as *1905*, some long-distance trains even stocked *slippers*.",
+   "spoken": "As early as nineteen oh five, some long-distance trains even stocked slippers.",
+   "chapterBreak": false,
+   "s": 22.628,
+   "e": 27.005
+  },
+  {
+   "display": "Dress historian *Daimaru* *Hiroshi* points out that when Japanese passengers put their feet up,",
+   "spoken": "Dress historian Dye-mah-roo Hiroshi points out that when Japanese passengers put their feet up,",
+   "chapterBreak": false,
+   "s": 27.446,
+   "e": 32.749
+  },
+  {
+   "display": "the shoes come off *first*.",
+   "spoken": "the shoes come off first.",
+   "chapterBreak": false,
+   "s": 33.189,
+   "e": 34.463
+  },
+  {
+   "display": "Westerners usually leave them *on*.",
+   "spoken": "Westerners usually leave them on.",
+   "chapterBreak": false,
+   "s": 34.903,
+   "e": 36.665
+  },
+  {
+   "display": "Then came the *car* *boom*.",
+   "spoken": "Then came the car boom.",
+   "chapterBreak": true,
+   "s": 37.37,
+   "e": 38.605
+  },
+  {
+   "display": "Cars per household rose *ninefold* from 1963 to 1972,",
+   "spoken": "Cars per household rose ninefold from nineteen sixty-three to nineteen seventy-two,",
+   "chapterBreak": false,
+   "s": 39.045,
+   "e": 44.031
+  },
+  {
+   "display": "while only about *a* *fifth* of roads were paved.",
+   "spoken": "while only about a fifth of roads were paved.",
+   "chapterBreak": false,
+   "s": 44.471,
+   "e": 46.721
+  },
+  {
+   "display": "Many owners made their cars *“dokin”*: no shoes inside, with a tray for your pair.",
+   "spoken": "Many owners made their cars doh-keen: no shoes inside, with a tray for your pair.",
+   "chapterBreak": false,
+   "s": 47.161,
+   "e": 51.643
+  },
+  {
+   "display": "Shops sold *no-shoes* *stickers*,",
+   "spoken": "Shops sold no-shoes stickers,",
+   "chapterBreak": false,
+   "s": 52.084,
+   "e": 53.67
+  },
+  {
+   "display": "and forgotten shoes turned up at highway *rest* *stops*.",
+   "spoken": "and forgotten shoes turned up at highway rest stops.",
+   "chapterBreak": false,
+   "s": 54.11,
+   "e": 56.679
+  },
+  {
+   "display": "Here's the *twist*.",
+   "spoken": "Here's the twist.",
+   "chapterBreak": true,
+   "s": 57.384,
+   "e": 58.305
+  },
+  {
+   "display": "Until the *1920s*, even Tokyo's grandest department stores",
+   "spoken": "Until the nineteen twenties, even Tokyo's grandest department stores",
+   "chapterBreak": false,
+   "s": 58.745,
+   "e": 62.703
+  },
+  {
+   "display": "made you swap your shoes for *slippers* at the door.",
+   "spoken": "made you swap your shoes for slippers at the door.",
+   "chapterBreak": false,
+   "s": 63.143,
+   "e": 65.357
+  },
+  {
+   "display": "Staff juggled *thousands* of pairs, and often *mixed* *them* *up*.",
+   "spoken": "Staff juggled thousands of pairs, and often mixed them up.",
+   "chapterBreak": false,
+   "s": 65.798,
+   "e": 68.835
+  },
+  {
+   "display": "It took an *earthquake* to end that.",
+   "spoken": "It took an earthquake to end that.",
+   "chapterBreak": false,
+   "s": 69.275,
+   "e": 70.834
+  },
+  {
+   "display": "That's our *next* *story*.",
+   "spoken": "That's our next story.",
+   "chapterBreak": false,
+   "s": 71.274,
+   "e": 72.4
+  }
+ ]
+}
