@@ -36,4 +36,4 @@ sk.crackle(EV['fire'][0], EV['fire'][1] - EV['fire'][0], n=500, g=.12); sk.bed(E
 for k in range(int((EV['steps'][1] - EV['steps'][0]) / .32)): sk.put('sfx', EV['steps'][0] + k * .32, lp(sk.noise(.09), 800) * np.exp(-tt(.09) * 50), (-1) ** k * .4, .22)
 tr = EV['train'][0]; sk.hum(tr, 2.6, f=48, g=.14); [sk.click(tr + .2 + k * .36 * (1 + k * .06) + o, .12, 380, .06, pan=-.3) for k in range(6) for o in (0, .11)]
 sk.whoosh(end, 1.0, .4); sk.sparkle(end + .5, 1.2, n=60, g=.02)
-sk.mix('vo_full.wav', 'mix.wav'); sk.mix(None, 'mix_novo.wav')
+sk.mix('vo_full.wav', 'mix.wav', music_gain=.2, sfx_gain=.36); sk.mix(None, 'mix_novo.wav')
