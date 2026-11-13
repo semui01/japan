@@ -91,3 +91,4 @@ bash tools/deliver.sh master_9x16_ja.mp4 mix_novo.wav out/top5-prefectures_9x16_
 - `shoes-off/` — *Shoes Off*: why Shōwa Japan slipped its shoes off on trains and in cars (75 s, 9:16). See `shoes-off/README.md`.
 - `slippers-off/` — *How the Slippers Came Off*: episode 2, how Japan's department stores dropped the shoe check (90 s, 9:16). See `slippers-off/README.md`.
 - `station-store/` — *The Store Inside the Station*: episode 3, how a railway built a department store in its Umeda terminal (92 s, 9:16). See `station-store/README.md`.
+- `flag-plate/` — *The Plate with a Flag*: episode 4, how a 1930 department-store plate became Japan's kids' meal (90 s, 9:16). See `flag-plate/README.md`.

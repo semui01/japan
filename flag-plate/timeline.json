@@ -1,0 +1,182 @@
+{
+ "duration": 90.0,
+ "speed": 1.1243549934064747,
+ "voice": "am_michael",
+ "lines": [
+  {
+   "display": "*Last* *time:* a mountain of rice with a *flag* on top.",
+   "spoken": "Last time: a mountain of rice with a flag on top.",
+   "chapterBreak": false,
+   "s": 0.7,
+   "e": 3.707
+  },
+  {
+   "display": "That plate became Japan's *kids'* *meal*,",
+   "spoken": "That plate became Japan's kids' meal,",
+   "chapterBreak": false,
+   "s": 4.112,
+   "e": 6.15
+  },
+  {
+   "display": "and it was born in a *department* *store*.",
+   "spoken": "and it was born in a department store.",
+   "chapterBreak": false,
+   "s": 6.555,
+   "e": 8.495
+  },
+  {
+   "display": "Mitsukoshi opened a *dining* *room* in *1907*, as it began selling far more than kimono.",
+   "spoken": "Mitsoo-koshi opened a dining room in nineteen oh seven, as it began selling far more than kimono.",
+   "chapterBreak": true,
+   "s": 9.143,
+   "e": 15.32
+  },
+  {
+   "display": "By *1927*, Hankyu's dining hall in Osaka served nearly *5,000* people a day.",
+   "spoken": "By nineteen twenty-seven, Hahn-cue's dining hall in Osaka served nearly five thousand people a day.",
+   "chapterBreak": false,
+   "s": 15.725,
+   "e": 22.13
+  },
+  {
+   "display": "Western dishes were a *treat* few families cooked at home.",
+   "spoken": "Western dishes were a treat few families cooked at home.",
+   "chapterBreak": false,
+   "s": 22.535,
+   "e": 25.727
+  },
+  {
+   "display": "You ordered with your *eyes*.",
+   "spoken": "You ordered with your eyes.",
+   "chapterBreak": true,
+   "s": 26.375,
+   "e": 27.787
+  },
+  {
+   "display": "Japan's biggest food-model maker says realistic *models* first went on show",
+   "spoken": "Japan's biggest food-model maker says realistic models first went on show",
+   "chapterBreak": false,
+   "s": 28.192,
+   "e": 32.681
+  },
+  {
+   "display": "in *Shirokiya's* dining hall in *1917*:",
+   "spoken": "in Shee-ro-kee-ya's dining hall in nineteen seventeen:",
+   "chapterBreak": false,
+   "s": 33.086,
+   "e": 36.123
+  },
+  {
+   "display": "diners *looked*, bought a *ticket*, then *sat* *down*.",
+   "spoken": "diners looked, bought a ticket, then sat down.",
+   "chapterBreak": false,
+   "s": 36.528,
+   "e": 38.909
+  },
+  {
+   "display": "It kept the crowds *moving*.",
+   "spoken": "It kept the crowds moving.",
+   "chapterBreak": false,
+   "s": 39.314,
+   "e": 40.766
+  },
+  {
+   "display": "Then came *1930*, deep in the *Depression*.",
+   "spoken": "Then came nineteen thirty, deep in the Depression.",
+   "chapterBreak": true,
+   "s": 41.415,
+   "e": 44.177
+  },
+  {
+   "display": "Mitsukoshi's dining manager, *Andō* *Tarō*, saw some cute *picture* *plates* from a tableware maker",
+   "spoken": "Mitsoo-koshi's dining manager, Ahn-doh Tah-roh, saw some cute picture plates from a tableware maker",
+   "chapterBreak": false,
+   "s": 44.582,
+   "e": 50.757
+  },
+  {
+   "display": "and built a meal for *children*:",
+   "spoken": "and built a meal for children:",
+   "chapterBreak": false,
+   "s": 51.162,
+   "e": 52.752
+  },
+  {
+   "display": "*spaghetti*, *croquettes*, *ham*, *sandwiches*, *bonbons*,",
+   "spoken": "spaghetti, croquettes, ham, sandwiches, bonbons,",
+   "chapterBreak": false,
+   "s": 53.158,
+   "e": 56.214
+  },
+  {
+   "display": "and ketchup rice shaped like *Mount* *Fuji*,",
+   "spoken": "and ketchup rice shaped like Mount Fuji,",
+   "chapterBreak": false,
+   "s": 56.619,
+   "e": 58.872
+  },
+  {
+   "display": "capped with white-rice *snow*.",
+   "spoken": "capped with white-rice snow.",
+   "chapterBreak": false,
+   "s": 59.277,
+   "e": 60.771
+  },
+  {
+   "display": "On the summit stood a tiny *flag*;",
+   "spoken": "On the summit stood a tiny flag;",
+   "chapterBreak": true,
+   "s": 61.419,
+   "e": 63.177
+  },
+  {
+   "display": "one account says it was *Mitsukoshi's* *own*.",
+   "spoken": "one account says it was Mitsoo-koshi's own.",
+   "chapterBreak": false,
+   "s": 63.582,
+   "e": 65.848
+  },
+  {
+   "display": "Other restaurants *copied* it, and the kids' meal became a *menu* *staple*.",
+   "spoken": "Other restaurants copied it, and the kids' meal became a menu staple.",
+   "chapterBreak": true,
+   "s": 66.496,
+   "e": 70.49
+  },
+  {
+   "display": "Mitsukoshi kept serving it, on plates shaped like *bullet* *trains* and *space* *shuttles*,",
+   "spoken": "Mitsoo-koshi kept serving it, on plates shaped like bullet trains and space shuttles,",
+   "chapterBreak": false,
+   "s": 70.895,
+   "e": 75.703
+  },
+  {
+   "display": "and *grown-ups* have been allowed to order it too.",
+   "spoken": "and grown-ups have been allowed to order it too.",
+   "chapterBreak": false,
+   "s": 76.108,
+   "e": 78.222
+  },
+  {
+   "display": "And in *1950*, another Tokyo department store took in a new resident on its *roof*:",
+   "spoken": "And in nineteen fifty, another Tokyo department store took in a new resident on its roof:",
+   "chapterBreak": true,
+   "s": 78.87,
+   "e": 84.296
+  },
+  {
+   "display": "a *baby* *elephant*.",
+   "spoken": "a baby elephant.",
+   "chapterBreak": false,
+   "s": 84.701,
+   "e": 85.803
+  },
+  {
+   "display": "That's our *next* *story*.",
+   "spoken": "That's our next story.",
+   "chapterBreak": false,
+   "s": 86.208,
+   "e": 87.4
+  }
+ ]
+}
