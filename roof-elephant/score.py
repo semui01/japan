@@ -25,7 +25,7 @@ sk.pad(C + [67, 72], end, 90 - end, .6, bright=2400, att=.05); [sk.bell(m, end +
 for t in EV['scene']: sk.whoosh(t, .7, .3)
 for i, t in enumerate(EV['pop']): sk.blip(t + .05, .14, [880, 990, 1175, 1320][i % 4], .14, pan=(-1) ** i * .3)
 for t in EV['stamp']: sk.boom(t + .02, .3, .5); sk.click(t + .02, .25, 1400, .04)
-for t in EV['footstep']: sk.boom(t, .8, .9); sk.put('sfx', t, lp(sk.noise(.2), 300) * np.exp(-tt(.2) * 18), 0, .6)
+for t in EV['footstep']: sk.boom(t, .42, .9); sk.put('sfx', t, lp(sk.noise(.2), 300) * np.exp(-tt(.2) * 18), 0, .3)
 a, b = EV['crane']; sk.hum(a, b - a, f=40, g=.1, cut=400); sk.ticks(a, b, g=.04, start_gap=.22, accel=1.0)
 a, b = EV['war']; sk.bed(a, b - a + 1, cut=500, g=.25)
 tr = EV['train'][0]; sk.hum(tr, 4.5, f=48, g=.12); [sk.click(tr + .3 + k * .42 + o, .11, 380, .06, pan=-.3) for k in range(9) for o in (0, .11)]
