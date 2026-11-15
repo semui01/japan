@@ -30,6 +30,6 @@ for a, b, g in [(EV['brush'][0], EV['brush'][1], .09), (EV['pen'][0], EV['pen'][
     n = sk.noise(b - a); s = bp(n, 1500, 5000) * (0.5 + .5 * np.sin(tt(b - a) * 9) ** 2) * env(len(n), .1, .2); sk.put('sfx', a, s, .2, g)
 for i, t in enumerate(EV['crumple']): sk.put('sfx', t, hp(sk.noise(.16), 2500) * np.exp(-tt(.16) * 22) * (1 + .5 * np.sin(tt(.16) * 300)), np.sin(i) * .6, .22)
 sk.sparkle(dawn + .2, 1.6, n=70, g=.02)
-d0 = EV['ding'][0]; sk.bell(88, d0, .16, buf='sfx', d=1.6); sk.hum(EV['doors'][0], 1.1, f=70, g=.12, cut=500); sk.whoosh(EV['doors'][0] + .5, 1.0, .25)
+d0 = EV['ding'][0]; sk.bell(88, d0, .16, buf='sfx', d=1.6); sk.hum(EV['doors'][0] - .6, 2.4, f=70, g=.12, cut=500); sk.whoosh(EV['doors'][0] + .5, 1.0, .25)
 sk.whoosh(end, .8, .4); sk.sparkle(end + .3, 1.0, n=50, g=.02)
 sk.mix('vo_full.wav', 'mix.wav', music_gain=.2, sfx_gain=.36); sk.mix(None, 'mix_novo.wav')
