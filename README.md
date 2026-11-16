@@ -95,3 +95,4 @@ bash tools/deliver.sh master_9x16_ja.mp4 mix_novo.wav out/top5-prefectures_9x16_
 - `roof-elephant/` — *The Elephant on the Roof*: episode 5, the baby elephant who lived on Takashimaya's roof, 1950–1954 (90 s, 9:16). See `roof-elephant/README.md`.
 - `wrapping-paper/` — *The Wrapping Paper and Anpanman*: episode 6, Mitsukoshi's 1950 paper and the ad man who lettered it (90 s, 9:16). See `wrapping-paper/README.md`.
 - `elevator-girls/` — *Going Up*: episode 7, Japan's first elevator girls, from Matsuzakaya Ueno in 1929 to the lifts still run by hand (90 s, 9:16). See `elevator-girls/README.md`.
+- `fire-myth/` — *The Fire and the Myth*: episode 8, the 1932 Shirokiya fire and the underwear story it left behind (90 s, 9:16). See `fire-myth/README.md`.
