@@ -1,0 +1,182 @@
+{
+ "duration": 90.0,
+ "speed": 1.0640696804531367,
+ "voice": "am_michael",
+ "lines": [
+  {
+   "display": "After Christmas comes the *New* *Year* sale,",
+   "spoken": "After Christmas comes the New Year sale,",
+   "chapterBreak": false,
+   "s": 0.7,
+   "e": 2.809
+  },
+  {
+   "display": "when Japan's department stores sell sealed mystery bags",
+   "spoken": "when Japan's department stores sell sealed mystery bags",
+   "chapterBreak": false,
+   "s": 3.16,
+   "e": 6.479
+  },
+  {
+   "display": "called *fukubukuro*: *lucky* *bags*.",
+   "spoken": "called foo-koo-boo-koo-roh: lucky bags.",
+   "chapterBreak": false,
+   "s": 6.829,
+   "e": 9.37
+  },
+  {
+   "display": "For decades, people *queued* *for* *hours* to buy one.",
+   "spoken": "For decades, people queued for hours to buy one.",
+   "chapterBreak": false,
+   "s": 9.72,
+   "e": 12.675
+  },
+  {
+   "display": "The year's *first* *sale* is an old custom.",
+   "spoken": "The year's first sale is an old custom.",
+   "chapterBreak": true,
+   "s": 13.235,
+   "e": 15.508
+  },
+  {
+   "display": "A late-Edo print shows Osaka's Shinsaibashi shops",
+   "spoken": "A late Eh-doh print shows Osaka's Shin-sigh-bah-shee shops",
+   "chapterBreak": false,
+   "s": 15.858,
+   "e": 19.153
+  },
+  {
+   "display": "opening early on *2* *January*, under *lantern* *light*.",
+   "spoken": "opening early on the second of January, under lantern light.",
+   "chapterBreak": false,
+   "s": 19.504,
+   "e": 23.127
+  },
+  {
+   "display": "The bag itself is *harder* to pin down.",
+   "spoken": "The bag itself is harder to pin down.",
+   "chapterBreak": true,
+   "s": 23.688,
+   "e": 25.935
+  },
+  {
+   "display": "The usual story: Edo kimono shops stuffed *leftover* *fabric* into bags.",
+   "spoken": "The usual story: Eh-doh kimono shops stuffed leftover fabric into bags.",
+   "chapterBreak": false,
+   "s": 26.285,
+   "e": 31.249
+  },
+  {
+   "display": "Mitsukoshi's ancestor *Echigoya* gets the credit,",
+   "spoken": "Mitsoo-koshi's ancestor Etchy-go-ya gets the credit,",
+   "chapterBreak": false,
+   "s": 31.599,
+   "e": 34.716
+  },
+  {
+   "display": "but *Daimaru* and *Matsuya* have stories too,",
+   "spoken": "but Dye-mah-roo and Mah-tsoo-ya have stories too,",
+   "chapterBreak": false,
+   "s": 35.066,
+   "e": 37.625
+  },
+  {
+   "display": "and the records are *thin*.",
+   "spoken": "and the records are thin.",
+   "chapterBreak": false,
+   "s": 37.976,
+   "e": 39.274
+  },
+  {
+   "display": "One version says Daimaru hid a *gold* *obi* sash in one bag,",
+   "spoken": "One version says Dye-mah-roo hid a gold oh-bee sash in one bag,",
+   "chapterBreak": true,
+   "s": 39.834,
+   "e": 43.908
+  },
+  {
+   "display": "for whoever got *lucky*.",
+   "spoken": "for whoever got lucky.",
+   "chapterBreak": false,
+   "s": 44.259,
+   "e": 45.615
+  },
+  {
+   "display": "The name nods to a saying: there's *luck* *in* *leftovers*.",
+   "spoken": "The name nods to a saying: there's luck in leftovers.",
+   "chapterBreak": true,
+   "s": 46.176,
+   "e": 49.417
+  },
+  {
+   "display": "Well into the late Shōwa era, many bags really were *unsold* *stock*.",
+   "spoken": "Well into the late Show-wah era, many bags really were unsold stock.",
+   "chapterBreak": false,
+   "s": 49.767,
+   "e": 54.1
+  },
+  {
+   "display": "Then they got *ambitious*.",
+   "spoken": "Then they got ambitious.",
+   "chapterBreak": false,
+   "s": 54.451,
+   "e": 55.8
+  },
+  {
+   "display": "In the bubble years, one bag held a *Picasso* and a *Renoir* for *500* *million* *yen*.",
+   "spoken": "In the bubble years, one bag held a Picasso and a Renoir for five hundred million yen.",
+   "chapterBreak": true,
+   "s": 56.361,
+   "e": 61.886
+  },
+  {
+   "display": "Later came bags of *experiences*,",
+   "spoken": "Later came bags of experiences,",
+   "chapterBreak": false,
+   "s": 62.236,
+   "e": 64.372
+  },
+  {
+   "display": "and *clear* *bags* showing what's inside, for buyers who'd rather not gamble.",
+   "spoken": "and clear bags showing what's inside, for buyers who'd rather not gamble.",
+   "chapterBreak": false,
+   "s": 64.723,
+   "e": 69.126
+  },
+  {
+   "display": "And the queues are *thinning*.",
+   "spoken": "And the queues are thinning.",
+   "chapterBreak": true,
+   "s": 69.687,
+   "e": 71.078
+  },
+  {
+   "display": "From *2025*, Tokyo's big department stores *close* on New Year's Day,",
+   "spoken": "From twenty twenty-five, Tokyo's big department stores close on New Year's Day,",
+   "chapterBreak": false,
+   "s": 71.428,
+   "e": 76.409
+  },
+  {
+   "display": "and some on the *2nd* too, to give staff a *break*.",
+   "spoken": "and some on the second too, to give staff a break.",
+   "chapterBreak": false,
+   "s": 76.759,
+   "e": 79.581
+  },
+  {
+   "display": "*Next:* Valentine's Day,",
+   "spoken": "Next: Valentine's Day,",
+   "chapterBreak": true,
+   "s": 80.142,
+   "e": 81.698
+  },
+  {
+   "display": "and the *1958* department-store chocolate fair that sold just *three* *bars*.",
+   "spoken": "and the nineteen fifty-eight department-store chocolate fair that sold just three bars.",
+   "chapterBreak": false,
+   "s": 82.048,
+   "e": 87.4
+  }
+ ]
+}
