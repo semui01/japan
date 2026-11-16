@@ -98,3 +98,4 @@ bash tools/deliver.sh master_9x16_ja.mp4 mix_novo.wav out/top5-prefectures_9x16_
 - `fire-myth/` — *The Fire and the Myth*: episode 8, the 1932 Shirokiya fire and the underwear story it left behind (90 s, 9:16). See `fire-myth/README.md`.
 - `christmas-japan/` — *Christmas Comes to Japan*: episode 9, from the 1552 Mass and Meidi-ya's 1900 Ginza storefront to the 25 December holiday and the postwar sales (94 s, 9:16). See `christmas-japan/README.md`.
 - `lucky-bag/` — *The Lucky Bag*: episode 10, the New Year fukubukuro, its disputed origins and its bubble-era excesses (90 s, 9:16). See `lucky-bag/README.md`.
+- `three-bars/` — *Three Chocolate Bars*: episode 11, Valentine's Day from a ¥170 flop at Isetan in 1958 to a record chocolate fair in 2026 (93 s, 9:16). See `three-bars/README.md`.
